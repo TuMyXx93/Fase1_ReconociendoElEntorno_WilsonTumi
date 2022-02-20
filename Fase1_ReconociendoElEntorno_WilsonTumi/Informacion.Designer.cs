@@ -105,9 +105,9 @@ namespace Fase1_ReconociendoElEntorno_WilsonTumi
             this.lblNombreCliente.ForeColor = System.Drawing.Color.Green;
             this.lblNombreCliente.Location = new System.Drawing.Point(258, 9);
             this.lblNombreCliente.Name = "lblNombreCliente";
-            this.lblNombreCliente.Size = new System.Drawing.Size(32, 24);
+            this.lblNombreCliente.Size = new System.Drawing.Size(308, 24);
             this.lblNombreCliente.TabIndex = 11;
-            this.lblNombreCliente.Text = "lbl";
+            this.lblNombreCliente.Text = "Va a mostrar nombre del cliente";
             // 
             // lblEstratoSocial
             // 
@@ -116,9 +116,9 @@ namespace Fase1_ReconociendoElEntorno_WilsonTumi
             this.lblEstratoSocial.ForeColor = System.Drawing.Color.Green;
             this.lblEstratoSocial.Location = new System.Drawing.Point(258, 41);
             this.lblEstratoSocial.Name = "lblEstratoSocial";
-            this.lblEstratoSocial.Size = new System.Drawing.Size(32, 24);
+            this.lblEstratoSocial.Size = new System.Drawing.Size(321, 24);
             this.lblEstratoSocial.TabIndex = 12;
-            this.lblEstratoSocial.Text = "lbl";
+            this.lblEstratoSocial.Text = "Va a mostrar el estrato del cliente";
             // 
             // lblCantidadDias
             // 
@@ -127,9 +127,9 @@ namespace Fase1_ReconociendoElEntorno_WilsonTumi
             this.lblCantidadDias.ForeColor = System.Drawing.Color.Green;
             this.lblCantidadDias.Location = new System.Drawing.Point(258, 71);
             this.lblCantidadDias.Name = "lblCantidadDias";
-            this.lblCantidadDias.Size = new System.Drawing.Size(32, 24);
+            this.lblCantidadDias.Size = new System.Drawing.Size(294, 24);
             this.lblCantidadDias.TabIndex = 13;
-            this.lblCantidadDias.Text = "lbl";
+            this.lblCantidadDias.Text = "Va a mostrar los días digitados";
             // 
             // lblValorPago
             // 
@@ -138,9 +138,9 @@ namespace Fase1_ReconociendoElEntorno_WilsonTumi
             this.lblValorPago.ForeColor = System.Drawing.Color.Green;
             this.lblValorPago.Location = new System.Drawing.Point(258, 103);
             this.lblValorPago.Name = "lblValorPago";
-            this.lblValorPago.Size = new System.Drawing.Size(32, 24);
+            this.lblValorPago.Size = new System.Drawing.Size(261, 24);
             this.lblValorPago.TabIndex = 14;
-            this.lblValorPago.Text = "lbl";
+            this.lblValorPago.Text = "Va a mostrar valor de pago";
             // 
             // lblDescuento
             // 
@@ -149,9 +149,9 @@ namespace Fase1_ReconociendoElEntorno_WilsonTumi
             this.lblDescuento.ForeColor = System.Drawing.Color.Green;
             this.lblDescuento.Location = new System.Drawing.Point(258, 138);
             this.lblDescuento.Name = "lblDescuento";
-            this.lblDescuento.Size = new System.Drawing.Size(32, 24);
+            this.lblDescuento.Size = new System.Drawing.Size(313, 24);
             this.lblDescuento.TabIndex = 15;
-            this.lblDescuento.Text = "lbl";
+            this.lblDescuento.Text = "Va a mostrar si aplica descuento";
             // 
             // Informacion
             // 

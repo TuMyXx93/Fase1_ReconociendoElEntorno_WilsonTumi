@@ -26,7 +26,7 @@ namespace Fase1_ReconociendoElEntorno_WilsonTumi
 
             if(estratoSocial == 1 || estratoSocial == 2)
             {
-                this.lblDescuento.Text = "Descuento del 15% aplicado";
+                this.lblDescuento.Text = "Aplica descuento del 15%";
             }
             else
             {
