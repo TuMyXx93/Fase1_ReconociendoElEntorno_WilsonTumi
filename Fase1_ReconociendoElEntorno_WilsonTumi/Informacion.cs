@@ -1,4 +1,8 @@
-﻿using System;
+﻿/**
+ * Aquí nos muestra todo lo que esta importando
+ * o necesita para que funcione nuestra app
+ */
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -10,9 +14,18 @@ using System.Windows.Forms;
 
 namespace Fase1_ReconociendoElEntorno_WilsonTumi
 {
+    /**
+     * Clase principal a partir de la cual se va a
+     * instanciar el formulario en el cual estamos
+     * creando nuestra app
+     * 
+     * También esta heredando de la clase ‘Form’,
+     * que es la clase base a partir de la cual se
+     * crean las ventanas en C#
+     */
     public partial class Informacion : Form
     {
-        ClientesHotel cliente2 = new ClientesHotel();
+        //ClientesHotel cliente2 = new ClientesHotel();
         OperacacionValor operacion2 = new OperacacionValor();
 
         public Informacion(String nombreCliente, int estratoSocial, int cantidaDias)
@@ -38,5 +51,5 @@ namespace Fase1_ReconociendoElEntorno_WilsonTumi
         {
             this.Close();
         }
-    }
+    }//Fin de la clase
 }

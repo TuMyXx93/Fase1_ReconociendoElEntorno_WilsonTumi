@@ -73,14 +73,14 @@ namespace Fase1_ReconociendoElEntorno_WilsonTumi
             // 
             // txtNombreCliente
             // 
-            this.txtNombreCliente.Location = new System.Drawing.Point(254, 24);
+            this.txtNombreCliente.Location = new System.Drawing.Point(303, 24);
             this.txtNombreCliente.Name = "txtNombreCliente";
-            this.txtNombreCliente.Size = new System.Drawing.Size(207, 20);
+            this.txtNombreCliente.Size = new System.Drawing.Size(155, 20);
             this.txtNombreCliente.TabIndex = 7;
             // 
             // txtEstratoSocial
             // 
-            this.txtEstratoSocial.Location = new System.Drawing.Point(254, 90);
+            this.txtEstratoSocial.Location = new System.Drawing.Point(303, 90);
             this.txtEstratoSocial.Name = "txtEstratoSocial";
             this.txtEstratoSocial.Size = new System.Drawing.Size(74, 20);
             this.txtEstratoSocial.TabIndex = 6;
@@ -90,26 +90,26 @@ namespace Fase1_ReconociendoElEntorno_WilsonTumi
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label3.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
-            this.label3.Location = new System.Drawing.Point(37, 88);
+            this.label3.Location = new System.Drawing.Point(36, 90);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(211, 20);
+            this.label3.Size = new System.Drawing.Size(261, 20);
             this.label3.TabIndex = 5;
-            this.label3.Text = "Estrato social del cliente:";
+            this.label3.Text = "Digite estrato social del cliente:";
             // 
             // label2
             // 
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
-            this.label2.Location = new System.Drawing.Point(4, 158);
+            this.label2.Location = new System.Drawing.Point(4, 160);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(244, 20);
+            this.label2.Size = new System.Drawing.Size(293, 20);
             this.label2.TabIndex = 4;
-            this.label2.Text = "Cantidad de días a hospedar:";
+            this.label2.Text = "Digite cantidad de días a hospedar:";
             // 
             // txtCantidadDias
             // 
-            this.txtCantidadDias.Location = new System.Drawing.Point(254, 160);
+            this.txtCantidadDias.Location = new System.Drawing.Point(303, 160);
             this.txtCantidadDias.Name = "txtCantidadDias";
             this.txtCantidadDias.Size = new System.Drawing.Size(74, 20);
             this.txtCantidadDias.TabIndex = 3;
@@ -119,11 +119,11 @@ namespace Fase1_ReconociendoElEntorno_WilsonTumi
             this.label5.AutoSize = true;
             this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label5.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
-            this.label5.Location = new System.Drawing.Point(85, 22);
+            this.label5.Location = new System.Drawing.Point(84, 24);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(163, 20);
+            this.label5.Size = new System.Drawing.Size(213, 20);
             this.label5.TabIndex = 0;
-            this.label5.Text = "Nombre del cliente:";
+            this.label5.Text = "Digite nombre del cliente:";
             // 
             // label1
             // 

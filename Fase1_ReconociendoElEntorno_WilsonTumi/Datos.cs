@@ -1,4 +1,8 @@
-﻿using System;
+﻿/**
+ * Aquí nos muestra todo lo que esta importando
+ * o necesita para que funcione nuestra app
+ */
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -10,20 +14,48 @@ using System.Windows.Forms;
 
 namespace Fase1_ReconociendoElEntorno_WilsonTumi
 {
+    /**
+     * Clase principal a partir de la cual se va a
+     * instanciar el formulario en el cual estamos
+     * creando nuestra app
+     * 
+     * También esta heredando de la clase ‘Form’,
+     * que es la clase base a partir de la cual se
+     * crean las ventanas en C#
+     */
     public partial class Datos : Form
     {
+        /**
+         * Declarando e instanciando un objeto.
+         * 
+         * Declaramos el objeto 'cliente1' de la clase
+         * 'ClientesHotel' y lo instanciamos (creamos) con 'new'.
+         */
         ClientesHotel cliente1 = new ClientesHotel();
 
+        /**
+         * Método o Constructor inicialización de la clase 'Datos'.
+         */
         public Datos()
         {
             InitializeComponent();
         }
 
+        /**
+         * Método del botón 'Inicio' con el evento Click
+         */
         private void bntInicio_Click(object sender, EventArgs e)
         {
             this.Close();
         }
 
+        /**
+         * Método con argumentos
+         * 
+         * Evento del botón 'Confirmar Valor' de la clase 'Datos'.
+         * De forma automática crea el método private por lo que,
+         * solo las derivadas pueden llamar a esto.
+         */
         private void btnConfirmarValor_Click(object sender, EventArgs e)
         {
             if (txtNombreCliente.Text == "" || txtEstratoSocial.Text == "" || txtCantidadDias.Text == "")
@@ -47,9 +79,15 @@ namespace Fase1_ReconociendoElEntorno_WilsonTumi
             cliente1.EstratoSocial = Convert.ToInt32(txtEstratoSocial.Text);
             cliente1.CantidadDias = Convert.ToInt32(txtCantidadDias.Text);
 
+            /**
+             * Declarando e instanciando un objeto.
+             * 
+             * Declaramos el objeto 'ventanaDatos' de la clase
+             * 'Informacion' y lo instanciamos (creamos) con 'new'.
+             */
             using (Informacion ventanaDatos = new Informacion(cliente1.NombreCliente, cliente1.EstratoSocial, cliente1.CantidadDias))
                 ventanaDatos.ShowDialog();
 
         }
-    }
+    }//Fin de la clase
 }
